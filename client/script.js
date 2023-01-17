@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
     // fetch data from server
-    const response = await fetch('https://ask-hgnn.onrender.com', {
+    const response = await fetch('https://openai-dle3.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
