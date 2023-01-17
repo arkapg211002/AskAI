@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
     // fetch data from server
-    const response = await fetch('https://askai-wcpr.onrender.com', {
+    const response = await fetch('https://ask-hgnn.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -104,7 +104,7 @@ const handleSubmit = async (e) => {
     } else {
         const err = await response.text()
 
-        messageDiv.innerHTML = "Something went wrong"
+        messageDiv.innerHTML = "Something went wrong from our end. Please try again later."
         alert(err)
     }
 }
