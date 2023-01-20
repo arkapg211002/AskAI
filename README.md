@@ -12,3 +12,6 @@ Solution that worked:
 # Screenshots from localhost
 ![ss1](https://github.com/arkapg211002/AskAI/blob/main/ss1.png)
 ![ss2](https://github.com/arkapg211002/AskAI/blob/main/ss2.png)
+
+# [Deployed](https://ask-ai-nine.vercel.app/)
+![deployed](https://github.com/arkapg211002/AskAI/blob/main/2023-01-20.png)
