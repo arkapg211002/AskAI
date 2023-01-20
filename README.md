@@ -3,7 +3,7 @@ An application that resembles ChatGPT made using OpenAI API.
 
 Previously threw 401 errors
 Solution that worked:
-1. Remove .gitignore file
+1. Remove .gitignore file from root folder
 2. Remove .env file from script folder
 3. Make new API Key
 4. Add API Key in environment variable of remote server and deploy again
